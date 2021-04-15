@@ -9,7 +9,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class AlumniTests {
 
 	@Test
-	public void OpenChromeBrowser() throws InterruptedException 
+	public void OpenChromeToNagivateToBaseUrlTest() throws InterruptedException 
 	{
 	Openurl openurlObject = new Openurl();
 	openurlObject.ClickOnUseCases();
@@ -17,7 +17,7 @@ public class AlumniTests {
 	assertNotNull(openurlObject);
 	}
     @Test	
-	public void OpenChrome() throws InterruptedException 
+	public void ValidateAccleratePageTests() throws InterruptedException 
 	{
 	Openurl openurlObject = new Openurl();
 	openurlObject.ClickOnAccelerate();
