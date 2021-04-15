@@ -69,6 +69,7 @@ public class ResourcesMethods {
 	
 		AumniInnovation.click();
 		Thread.sleep(3000);
+		//I have use absolute path because I was unable to obtain the relative path or use any type of locators.
 		var ctoInfo = driver.findElement(By.xpath("/html/body/main/section[2]/div/div/div/div[3]/a"));
 		boolean selectValidation = ctoInfo.isSelected();
 		if (selectValidation==false)
